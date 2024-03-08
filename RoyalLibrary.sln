@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalLibrary", "RoyalLibrary.csproj", "{7C6551E8-347E-432C-ADA9-8AE51BC64698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - API", "0 - API", "{8D525EFE-D912-49EE-B35D-383C3B492682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{2EF02CD1-7353-4F31-9151-E31D824BCB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{92E23229-FE8A-47AE-AC86-22F2344C5FED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Models", "3 - Models", "{3D0EFAD5-C9E2-4C9E-9CBA-31B609FB67D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Cross-cutting", "4 - Cross-cutting", "{254F66E3-087E-4B9C-B918-5BA87C02599F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalLibrary.IoC", "..\RoyalLibrary.IoC\RoyalLibrary.IoC.csproj", "{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalLibrary.Infra", "..\RoyalLibrary.Infra\RoyalLibrary.Infra.csproj", "{35B08294-9920-4BB0-A32F-98EDDB09D166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6551E8-347E-432C-ADA9-8AE51BC64698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6551E8-347E-432C-ADA9-8AE51BC64698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6551E8-347E-432C-ADA9-8AE51BC64698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6551E8-347E-432C-ADA9-8AE51BC64698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B08294-9920-4BB0-A32F-98EDDB09D166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B08294-9920-4BB0-A32F-98EDDB09D166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B08294-9920-4BB0-A32F-98EDDB09D166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B08294-9920-4BB0-A32F-98EDDB09D166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C6551E8-347E-432C-ADA9-8AE51BC64698} = {8D525EFE-D912-49EE-B35D-383C3B492682}
+		{FE7A2D7E-CAD3-4719-B76D-78C6DCBB58FC} = {254F66E3-087E-4B9C-B918-5BA87C02599F}
+		{35B08294-9920-4BB0-A32F-98EDDB09D166} = {254F66E3-087E-4B9C-B918-5BA87C02599F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7ABD5C1-0B06-45B5-B8C7-F319C80BDA46}
+	EndGlobalSection
+EndGlobal
