@@ -45,15 +45,15 @@ namespace RoyalLibrary.Controllers
             switch (searchType)
             {
                 case "author":
-                    data = [.. data.Where(b => b.first_name.Contains(searchTerm) || b.last_name.Contains(searchTerm))];
+                    data = [.. data.Where(b => b.first_name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) || b.last_name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))];
                     break;
 
                 case "isbn":
-                    data = [.. data.Where(b => b.isbn is not null && b.isbn.StartsWith(searchTerm))];
+                    data = [.. data.Where(b => b.isbn is not null && b.isbn.StartsWith(searchTerm, StringComparison.OrdinalIgnoreCase))];
                     break;
 
                 case "title":
-                    data = [.. data.Where(b => b.title.Contains(searchTerm))];
+                    data = [.. data.Where(b => b.title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))];
                     break;
             }
 
